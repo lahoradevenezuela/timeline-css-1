@@ -1,0 +1,8 @@
+/* Estilo personalizado para videos verticales en TimelineJS */
+.tl-media-content iframe[src*="youtube"] {
+  width: 360px !important;
+  height: 640px !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
